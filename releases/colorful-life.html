@@ -32,10 +32,13 @@
     <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
       <a href="../index.html"
         class="flex items-center gap-2 text-xs uppercase tracking-widest text-amber-300 hover:text-white transition-colors">
-        <i class="fa-solid fa-arrow-left"></i> Volver al Inicio
+        <i class="fa-solid fa-arrow-left"></i> Inicio
       </a>
-      <span class="font-serif text-sm tracking-widest text-slate-300 font-bold">RIU KOUSEI</span>
-      <div class="text-xs text-amber-400 font-mono">RK-2024-CL</div>
+      <div class="hidden sm:flex items-center gap-6 text-xs uppercase tracking-wider font-medium text-slate-300">
+        <a href="#listen" class="hover:text-amber-300 transition-colors">Reproductor</a>
+        <a href="#stories" class="hover:text-amber-300 transition-colors">Historias & Concepto</a>
+      </div>
+      <div class="text-xs text-amber-400 font-mono">RK-2026-CL</div>
     </div>
   </header>
 
@@ -69,7 +72,7 @@
               <span
                 class="px-3 py-1 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-amber-500/20 text-amber-300 border border-amber-400/30">Álbum
                 Completo</span>
-              <span class="text-xs text-slate-400 font-mono">2024</span>
+              <span class="text-xs text-slate-400 font-mono">2026</span>
             </div>
 
             <h1 class="text-4xl sm:text-6xl font-serif font-black tracking-wider text-white mb-2">COLORFUL LIFE</h1>
@@ -120,7 +123,7 @@
       </div>
 
       <!-- Embedded Players Grid -->
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+      <div id="listen" class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
 
         <!-- Spotify Embed -->
         <div class="glass-panel rounded-2xl p-6 border border-amber-400/25 flex flex-col justify-between">
@@ -170,6 +173,688 @@
         </div>
 
       </div>
+
+      <!-- ========================================================
+           TRACK BREAKDOWN: HISTORIAS, ETIMOLOGÍA & CONCEPTO
+           ======================================================== -->
+      <section id="stories" class="mb-20 pt-8 border-t border-white/10">
+        
+        <!-- Header -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 pb-4 border-b border-amber-500/20">
+          <div>
+            <span class="text-xs uppercase tracking-widest text-amber-300 font-semibold block mb-2">Desglose Temático & Simbólico</span>
+            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white tracking-wider">HISTORIAS DE LAS CANCIONES</h2>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400 font-light mt-2 md:mt-0 max-w-md text-left md:text-right">
+            Haz clic en cada pieza para desplegar su etimología, la emoción detrás de su composición y notas poéticas.
+          </p>
+        </div>
+
+        <!-- Accordions Container -->
+        <div class="space-y-4">
+
+          <!-- 1. GREY SCALE -->
+          <details class="accordion-track group" id="story-greyscale" open>
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-slate-400 font-bold">01</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-slate-300 transition-colors">Grey Scale</span>
+                  <span class="text-xs text-slate-400 block font-mono">03:10 • C Minor (Do menor) • 68 BPM • Camelot 5A</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-slate-500/15 text-slate-300 border border-slate-400/30">03:10 • 68 BPM • 5A</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-regular fa-clock mr-1"></i> 03:10</span>
+                <span class="px-2.5 py-1 rounded-md bg-slate-500/10 border border-slate-500/20 text-slate-300"><i class="fa-solid fa-music mr-1"></i> C Minor</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 68 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 5A</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-slate-500/20">
+                <span class="text-xs uppercase tracking-wider text-slate-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-circle-half-stroke mr-1"></i> Estado Inicial
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  La quietud monocromática previa al florecimiento del color. El estado reflexivo e introspectivo donde la calma no es ausencia, sino el espacio íntimo donde la conciencia se prepara para renacer.
+                </p>
+              </div>
+
+              <div class="lore-card">
+                "Antes de la primera luz del alba existe el gris: un remanso sagrado donde el alma aprende a escucharse a sí misma."
+              </div>
+            </div>
+          </details>
+
+          <!-- 2. CORDEVIARE -->
+          <details class="accordion-track group" id="story-cordeviare">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-amber-400 font-bold">02</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-amber-300 transition-colors">Cordeviare</span>
+                  <span class="text-xs text-slate-400 block font-mono">03:06 • C Minor (Do menor) • 161 BPM • Camelot 5A</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-400/30">03:06 • 161 BPM • 5A</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-amber-300"><i class="fa-regular fa-clock mr-1"></i> 03:06</span>
+                <span class="px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-300"><i class="fa-solid fa-music mr-1"></i> C Minor</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 161 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 5A</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-amber-500/20">
+                <span class="text-xs uppercase tracking-wider text-amber-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-book-bookmark mr-1"></i> Definición
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  <strong class="font-sans not-italic text-amber-400 text-sm">n.</strong> El momento en que el corazón deja de sentirse propio y comienza a dirigirse inevitablemente hacia alguien más.
+                </p>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs font-mono">
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5">
+                  <span class="text-slate-400 block mb-0.5">De:</span>
+                  <p class="text-slate-200"><strong class="text-amber-300">corde</strong> (latín <em>cor / cordis</em>: corazón)</p>
+                </div>
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5">
+                  <span class="text-slate-400 block mb-0.5">Y:</span>
+                  <p class="text-slate-200"><strong class="text-amber-300">deviare</strong> (italiano: desviarse)</p>
+                </div>
+              </div>
+
+              <div class="lore-card">
+                "Hay momentos donde el corazón deja de obedecer los mapas trazados por la razón y se desvía inevitablemente hacia donde reside su verdad."
+              </div>
+            </div>
+          </details>
+
+          <!-- 3. VELCUORE -->
+          <details class="accordion-track group" id="story-velcuore">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-purple-400 font-bold">03</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-purple-300 transition-colors">Velcuore</span>
+                  <span class="text-xs text-slate-400 block font-mono">02:11 • C Minor (Do menor) • 75 BPM • Camelot 5A</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-purple-500/15 text-purple-300 border border-purple-400/30">02:11 • 75 BPM • 5A</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-purple-300"><i class="fa-regular fa-clock mr-1"></i> 02:11</span>
+                <span class="px-2.5 py-1 rounded-md bg-purple-500/10 border border-purple-500/20 text-purple-300"><i class="fa-solid fa-music mr-1"></i> C Minor</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 75 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 5A</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-purple-500/20">
+                <span class="text-xs uppercase tracking-wider text-purple-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-book-bookmark mr-1"></i> Definición
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  <strong class="font-sans not-italic text-purple-400 text-sm">n.</strong> El sentimiento de querer entrelazar toda tu vida con alguien hasta el punto de que el corazón parece correr más rápido al imaginar un futuro juntos.
+                </p>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs font-mono">
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5">
+                  <span class="text-slate-400 block mb-0.5">De:</span>
+                  <p class="text-slate-200"><strong class="text-purple-300">velle</strong> (latín: desear profundamente)</p>
+                </div>
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5">
+                  <span class="text-slate-400 block mb-0.5">Y:</span>
+                  <p class="text-slate-200"><strong class="text-purple-300">cuore</strong> (italiano: corazón)</p>
+                </div>
+              </div>
+
+              <div class="lore-card">
+                "Un vals íntimo donde cada compás late con la intensidad de un futuro que ya se siente inseparable."
+              </div>
+            </div>
+          </details>
+
+          <!-- 4. ETERNOIRE -->
+          <details class="accordion-track group" id="story-eternoire">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-purple-400 font-bold">04</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-purple-300 transition-colors">Eternoire</span>
+                  <span class="text-xs text-slate-400 block font-mono">03:20 • C Minor (Do menor) • 76 BPM • Camelot 5A</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-purple-500/15 text-purple-300 border border-purple-400/30">03:20 • 76 BPM • 5A</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-purple-300"><i class="fa-regular fa-clock mr-1"></i> 03:20</span>
+                <span class="px-2.5 py-1 rounded-md bg-purple-500/10 border border-purple-500/20 text-purple-300"><i class="fa-solid fa-music mr-1"></i> C Minor</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 76 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 5A</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-purple-500/20">
+                <span class="text-xs uppercase tracking-wider text-purple-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-book-bookmark mr-1"></i> Definición
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  <strong class="font-sans not-italic text-purple-400 text-sm">n.</strong> Un amor tan inmenso que transforma la idea del futuro en algo inseparable de una sola persona.
+                </p>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs font-mono">
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5">
+                  <span class="text-slate-400 block mb-0.5">De:</span>
+                  <p class="text-slate-200"><strong class="text-purple-300">eterno</strong> (italiano: eterno)</p>
+                </div>
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5">
+                  <span class="text-slate-400 block mb-0.5">Y:</span>
+                  <p class="text-slate-200"><strong class="text-purple-300">noir</strong> (francés: oscuro / profundo; matiz melancólico)</p>
+                </div>
+              </div>
+
+              <div class="lore-card">
+                "Cuando el porvenir ya no se concibe como un horizonte abierto, sino como el eco eterno de una sola voz."
+              </div>
+            </div>
+          </details>
+
+          <!-- 5. AMARÉANCE -->
+          <details class="accordion-track group" id="story-amareance">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-amber-400 font-bold">05</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-amber-300 transition-colors">Amaréance</span>
+                  <span class="text-xs text-slate-400 block font-mono">02:46 • G Minor (Sol menor) • 94 BPM • Camelot 6A</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-400/30">02:46 • 94 BPM • 6A</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-amber-300"><i class="fa-regular fa-clock mr-1"></i> 02:46</span>
+                <span class="px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-300"><i class="fa-solid fa-music mr-1"></i> G Minor</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 94 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 6A</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-amber-500/20">
+                <span class="text-xs uppercase tracking-wider text-amber-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-book-bookmark mr-1"></i> Definición
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  <strong class="font-sans not-italic text-amber-400 text-sm">n.</strong> La expansión emocional que ocurre cuando un “te amo” deja de ser suficiente para contener lo que sientes.
+                </p>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs font-mono">
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5">
+                  <span class="text-slate-400 block mb-0.5">De:</span>
+                  <p class="text-slate-200"><strong class="text-amber-300">amare</strong> (latín: amar)</p>
+                </div>
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5">
+                  <span class="text-slate-400 block mb-0.5">Y:</span>
+                  <p class="text-slate-200"><strong class="text-amber-300">résonance</strong> (francés: resonancia)</p>
+                </div>
+              </div>
+
+              <div class="lore-card">
+                "Hay silencios que resuenan más hondo que cualquier palabra humana jamás pronunciada."
+              </div>
+            </div>
+          </details>
+
+          <!-- 6. PALVORÉ -->
+          <details class="accordion-track group" id="story-palvore">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-amber-400 font-bold">06</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-amber-300 transition-colors">Palvoré</span>
+                  <span class="text-xs text-slate-400 block font-mono">04:44 • G Minor (Sol menor) • 103 BPM • Camelot 6A</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-400/30">04:44 • 103 BPM • 6A</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-amber-300"><i class="fa-regular fa-clock mr-1"></i> 04:44</span>
+                <span class="px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-300"><i class="fa-solid fa-music mr-1"></i> G Minor</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 103 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 6A</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-amber-500/20">
+                <span class="text-xs uppercase tracking-wider text-amber-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-book-bookmark mr-1"></i> Definición
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  <strong class="font-sans not-italic text-amber-400 text-sm">n.</strong> La presión dulce y desesperante en el pecho causada por querer amar a alguien durante toda la existencia.
+                </p>
+              </div>
+
+              <div class="lore-card">
+                "Una contradicción sagrada: el dolor dulce de no tener suficientes vidas para entregar todo el amor acumulado."
+              </div>
+            </div>
+          </details>
+
+          <!-- 7. LUNAMOURA -->
+          <details class="accordion-track group" id="story-lunamoura">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-teal-400 font-bold">07</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-teal-300 transition-colors">Lunamoura</span>
+                  <span class="text-xs text-slate-400 block font-mono">03:01 • G Major (Sol mayor) • 164 BPM • Camelot 9B</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-teal-500/15 text-teal-300 border border-teal-400/30">03:01 • 164 BPM • 9B</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-teal-300"><i class="fa-regular fa-clock mr-1"></i> 03:01</span>
+                <span class="px-2.5 py-1 rounded-md bg-teal-500/10 border border-teal-500/20 text-teal-300"><i class="fa-solid fa-music mr-1"></i> G Major</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 164 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 9B</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-teal-500/20">
+                <span class="text-xs uppercase tracking-wider text-teal-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-book-bookmark mr-1"></i> Definición
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  <strong class="font-sans not-italic text-teal-400 text-sm">n.</strong> La sensación de que alguien ilumina emocionalmente toda tu vida, incluso en tus partes más oscuras.
+                </p>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs font-mono">
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5">
+                  <span class="text-slate-400 block mb-0.5">De:</span>
+                  <p class="text-slate-200"><strong class="text-teal-300">luna</strong> (latín / italiano: luna)</p>
+                </div>
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5">
+                  <span class="text-slate-400 block mb-0.5">Y:</span>
+                  <p class="text-slate-200"><strong class="text-teal-300">amour</strong> (francés: amor)</p>
+                </div>
+              </div>
+
+              <div class="lore-card">
+                "Como la luna que se refleja serena en el agua más honda, bañando de plata las sombras que nadie más se atreve a mirar."
+              </div>
+            </div>
+          </details>
+
+          <!-- 8. AMANECIA -->
+          <details class="accordion-track group" id="story-amanecia">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-amber-400 font-bold">08</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-amber-300 transition-colors">Amanecia</span>
+                  <span class="text-xs text-slate-400 block font-mono">03:40 • C Major (Do mayor) • 154 BPM • Camelot 8B</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-400/30">03:40 • 154 BPM • 8B</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-amber-300"><i class="fa-regular fa-clock mr-1"></i> 03:40</span>
+                <span class="px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-300"><i class="fa-solid fa-music mr-1"></i> C Major</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 154 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 8B</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-amber-500/20">
+                <span class="text-xs uppercase tracking-wider text-amber-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-book-bookmark mr-1"></i> Definición
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  <strong class="font-sans not-italic text-amber-400 text-sm">n.</strong> La necesidad intensa y casi dolorosa de despertar junto a la misma persona durante toda una vida.
+                </p>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs font-mono">
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5">
+                  <span class="text-slate-400 block mb-0.5">De:</span>
+                  <p class="text-slate-200"><strong class="text-amber-300">amare</strong> (latín / italiano: amar)</p>
+                </div>
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5">
+                  <span class="text-slate-400 block mb-0.5">Y:</span>
+                  <p class="text-slate-200"><strong class="text-amber-300">anecía</strong> (inspirado en “eternidad” y fonética griega suave)</p>
+                </div>
+              </div>
+
+              <div class="lore-card">
+                "El amanecer deja de ser un fenómeno astronómico cuando el verdadero despertar ocurre en la mirada compartida."
+              </div>
+            </div>
+          </details>
+
+          <!-- 9. COLORFUL LIFE -->
+          <details class="accordion-track group" id="story-colorful-life">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-amber-400 font-bold">09</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-amber-300 transition-colors">Colorful Life (Tema Titular)</span>
+                  <span class="text-xs text-slate-400 block font-mono">03:23 • F# Major (Fa sostenido mayor) • 130 BPM • Camelot 2B</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-400/30">03:23 • 130 BPM • 2B</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-amber-300"><i class="fa-regular fa-clock mr-1"></i> 03:23</span>
+                <span class="px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-300"><i class="fa-solid fa-music mr-1"></i> F# Major</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 130 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 2B</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-amber-500/20">
+                <span class="text-xs uppercase tracking-wider text-amber-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-palette mr-1"></i> Concepto Central
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  La transición de una vida que parecía monótona o gris hacia el descubrimiento de pequeños matices de color: la luz del sol sobre las hojas, una caminata compartida, o la serenidad de una tarde otoñal.
+                </p>
+              </div>
+
+              <div class="lore-card">
+                "El color no es una cualidad física del mundo, sino la lente con la que el alma elige mirarlo."
+              </div>
+            </div>
+          </details>
+
+          <!-- 10. CARETZIA -->
+          <details class="accordion-track group" id="story-caretzia">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-amber-400 font-bold">10</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-amber-300 transition-colors">Caretzia (s.) — Esencia Italiana</span>
+                  <span class="text-xs text-slate-400 block font-mono">02:23 • E Minor (Mi menor) • 143 BPM • Camelot 9A</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-400/30">02:23 • 143 BPM • 9A</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-amber-300"><i class="fa-regular fa-clock mr-1"></i> 02:23</span>
+                <span class="px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-300"><i class="fa-solid fa-music mr-1"></i> E Minor</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 143 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 9A</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Pronunciación: ca-ret-SI-a</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-amber-500/20">
+                <span class="text-xs uppercase tracking-wider text-amber-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-book-bookmark mr-1"></i> Definición
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  El impulso de alargar una caricia unos segundos más de lo necesario porque el corazón presiente que, cuando la mano se aparte, el momento habrá terminado para siempre. Es intentar convencer al tiempo de quedarse inmóvil con la simple presión de unos dedos.
+                </p>
+              </div>
+
+              <div class="p-3 rounded-lg bg-white/5 border border-white/5 text-xs font-mono">
+                <strong class="text-amber-300">Etimología:</strong> Inspirada en <em>carezza</em> (caricia) y el sufijo melódico <em>-ia</em>.
+              </div>
+
+              <div class="lore-card">
+                "Intentar convencer al tiempo de quedarse inmóvil con la simple y tierna presión de unos dedos."
+              </div>
+            </div>
+          </details>
+
+          <!-- 11. ADAGIOLA -->
+          <details class="accordion-track group" id="story-adagiola">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-amber-400 font-bold">11</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-amber-300 transition-colors">Adagiola (s.)</span>
+                  <span class="text-xs text-slate-400 block font-mono">02:48 • G Minor (Sol menor) • 179 BPM • Camelot 6A</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-400/30">02:48 • 179 BPM • 6A</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-amber-300"><i class="fa-regular fa-clock mr-1"></i> 02:48</span>
+                <span class="px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-300"><i class="fa-solid fa-music mr-1"></i> G Minor</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 179 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 6A</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-amber-500/20">
+                <span class="text-xs uppercase tracking-wider text-amber-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-book-bookmark mr-1"></i> Definición
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  El deseo profundo de ralentizar el ritmo de la vida para prolongar un baile lento e íntimo con alguien. Es la fantasía de que el vals del tiempo se detenga para que el abrazo de sus cuerpos en movimiento dure una eternidad.
+                </p>
+              </div>
+
+              <div class="p-3 rounded-lg bg-white/5 border border-white/5 text-xs font-mono">
+                <strong class="text-amber-300">Etimología:</strong> Basada en el término musical y de ballet <em>Adagio</em> (movimientos lentos, majestuosos y de sutil equilibrio) con un sufijo italiano dulce y diminutivo (<em>-ola</em>).
+              </div>
+
+              <div class="lore-card">
+                "A veces, el mayor virtuosismo radica en prolongar un segundo hasta convertirlo en una eternidad compartida."
+              </div>
+            </div>
+          </details>
+
+          <!-- 12. LOVE EPIPHANY -->
+          <details class="accordion-track group" id="story-epiphany">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-purple-400 font-bold">12</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-purple-300 transition-colors">Love Epiphany</span>
+                  <span class="text-xs text-slate-400 block font-mono">03:50 • C Minor (Do menor) • 98 BPM • Camelot 5A</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-purple-500/15 text-purple-300 border border-purple-400/30">03:50 • 98 BPM • 5A</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-purple-300"><i class="fa-regular fa-clock mr-1"></i> 03:50</span>
+                <span class="px-2.5 py-1 rounded-md bg-purple-500/10 border border-purple-500/20 text-purple-300"><i class="fa-solid fa-music mr-1"></i> C Minor</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 98 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 5A</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-purple-500/20">
+                <span class="text-xs uppercase tracking-wider text-purple-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-sun mr-1"></i> Epifanía & Revelación
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  El momento súbito de revelación: cuando comprendes que la presencia de otra persona ha transformado irrevocablemente la perspectiva con la que experimentas el mundo.
+                </p>
+              </div>
+
+              <div class="lore-card">
+                "No fue un destello ensordecedor, sino una claridad silenciosa que acomodó todas las piezas en su lugar."
+              </div>
+            </div>
+          </details>
+
+          <!-- 13. THROUGH EVERY STORM -->
+          <details class="accordion-track group" id="story-througheverystorm">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-amber-400 font-bold">13</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-amber-300 transition-colors">Through every storm</span>
+                  <span class="text-xs text-slate-400 block font-mono">02:24 • F Major (Fa mayor) • 65 BPM • Camelot 7B</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-400/30">02:24 • 65 BPM • 7B</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-amber-300"><i class="fa-regular fa-clock mr-1"></i> 02:24</span>
+                <span class="px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-300"><i class="fa-solid fa-music mr-1"></i> F Major</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 65 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 7B</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-amber-500/20">
+                <span class="text-xs uppercase tracking-wider text-amber-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-cloud-sun-rain mr-1"></i> Serenidad Tras la Tempestad
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  La perseverancia inquebrantable a través de cualquier tormenta. Un remanso cálido y luminoso en Fa mayor que brinda cobijo y la certeza de que toda tempestad culmina en calma.
+                </p>
+              </div>
+
+              <div class="lore-card">
+                "Después de atravesar la tormenta más oscura, la calma que queda no es vacío: es fortaleza compartida."
+              </div>
+            </div>
+          </details>
+
+          <!-- 14. VENTURIA -->
+          <details class="accordion-track group" id="story-venturia">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-cyan-400 font-bold">14</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-cyan-300 transition-colors">Venturia</span>
+                  <span class="text-xs text-slate-400 block font-mono">04:05 • D Minor (Re menor) • 156 BPM • Camelot 7A</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-cyan-500/15 text-cyan-300 border border-cyan-400/30">04:05 • 156 BPM • 7A</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-cyan-300"><i class="fa-regular fa-clock mr-1"></i> 04:05</span>
+                <span class="px-2.5 py-1 rounded-md bg-cyan-500/10 border border-cyan-500/20 text-cyan-300"><i class="fa-solid fa-music mr-1"></i> D Minor</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 156 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 7A</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Pronunciación: ven-TU-ria</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-cyan-500/20">
+                <span class="text-xs uppercase tracking-wider text-cyan-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-compass mr-1"></i> Significado
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  La nostalgia por un futuro aún no vivido; el sentimiento de extrañar momentos, lugares, personas o recuerdos que todavía no existen, pero que se sienten tan reales que el corazón los reconoce de antemano.
+                </p>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-white/5 text-xs sm:text-sm text-slate-300">
+                <span class="text-xs uppercase tracking-wider text-cyan-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-feather mr-1"></i> Definición Extendida
+                </span>
+                <p class="leading-relaxed">
+                  <strong class="text-cyan-300 font-serif">Venturia (sust.)</strong> — La nostalgia anticipada por un futuro deseado; la sensación de añorar recuerdos que pertenecen al mañana, como si el alma pudiera recorrer el tiempo y regresar con fragmentos de una vida aún por vivir. Una melancolía suave que aparece cuando el futuro deja de sentirse como una posibilidad y comienza a sentirse como un recuerdo lejano que espera pacientemente convertirse en realidad.
+                </p>
+              </div>
+
+              <div class="p-3 rounded-lg bg-white/5 border border-white/5 text-xs font-mono">
+                <strong class="text-cyan-300">Etimología:</strong> Del latín <em>ventūrus</em>, participio futuro del verbo <em>venīre</em> ("venir"), cuyo significado es "aquello que está por llegar" o "lo venidero". La palabra conserva la raíz <em>vent-</em> asociada a la llegada de algo esperado y adopta el sufijo <em>-ia</em>, frecuente en términos abstractos que describen estados, cualidades o emociones.
+              </div>
+
+              <div class="lore-card">
+                "Añorar recuerdos que aún pertenecen al mañana; cuando el corazón reconoce el porvenir antes que la memoria."
+              </div>
+            </div>
+          </details>
+
+          <!-- 15. WHERE YOU STAY -->
+          <details class="accordion-track group" id="story-whereyoustay">
+            <summary>
+              <div class="flex items-center gap-4">
+                <span class="text-xs font-mono text-amber-400 font-bold">15</span>
+                <div>
+                  <span class="font-serif font-bold text-white text-base sm:text-lg group-hover:text-amber-300 transition-colors">Where you Stay</span>
+                  <span class="text-xs text-slate-400 block font-mono">03:19 • G Minor (Sol menor) • 169 BPM • Camelot 6A</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-block text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-400/30">03:19 • 169 BPM • 6A</span>
+                <i class="fa-solid fa-chevron-down chevron-icon text-slate-400 text-sm"></i>
+              </div>
+            </summary>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 space-y-4 text-sm text-slate-300 leading-relaxed font-light">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-amber-300"><i class="fa-regular fa-clock mr-1"></i> 03:19</span>
+                <span class="px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-300"><i class="fa-solid fa-music mr-1"></i> G Minor</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-300"><i class="fa-solid fa-gauge-high mr-1"></i> 169 BPM</span>
+                <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-slate-400">Camelot: 6A</span>
+              </div>
+
+              <div class="p-4 rounded-xl bg-black/40 border border-amber-500/20">
+                <span class="text-xs uppercase tracking-wider text-amber-300 font-mono font-semibold block mb-1">
+                  <i class="fa-solid fa-house-chimney-window mr-1"></i> Refugio Emocional
+                </span>
+                <p class="font-serif text-base text-white/95 italic">
+                  Ese rincón intangible en el corazón donde habita la presencia de alguien amado; inmune al paso del tiempo, la distancia física o las ausencias temporales.
+                </p>
+              </div>
+
+              <div class="lore-card">
+                "No importa hacia dónde caminen los pasos; hay lugares en el alma donde siempre te quedarás a vivir."
+              </div>
+            </div>
+          </details>
+
+        </div>
+
+      </section>
 
       <!-- Navigation to other releases -->
       <div class="border-t border-white/10 pt-8 flex items-center justify-between text-xs">

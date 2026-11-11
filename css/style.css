@@ -245,3 +245,115 @@ body {
   pointer-events: none;
 }
 
+/* ========================================================
+   Sheet Music & Resource Cards
+   ======================================================== */
+.sheet-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (min-width: 640px) {
+  .sheet-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.sheet-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(248, 211, 141, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #f8fafc;
+  transition: all 0.2s ease;
+}
+
+.btn-download:hover {
+  background: rgba(248, 211, 141, 0.18);
+  border-color: rgba(248, 211, 141, 0.5);
+  color: #f8d38d;
+  transform: translateY(-1px);
+}
+
+.btn-download-midi:hover {
+  background: rgba(56, 189, 248, 0.18);
+  border-color: rgba(56, 189, 248, 0.5);
+  color: #38bdf8;
+}
+
+/* ========================================================
+   Interactive Track Breakdown (Accordion & Lore Cards)
+   ======================================================== */
+.accordion-track {
+  background: rgba(18, 16, 28, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.accordion-track[open] {
+  border-color: rgba(248, 211, 141, 0.35);
+  background: rgba(24, 18, 28, 0.85);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.accordion-track summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.accordion-track summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-track summary .chevron-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-track[open] summary .chevron-icon {
+  transform: rotate(180deg);
+  color: #f8d38d;
+}
+
+.lore-card {
+  background: rgba(0, 0, 0, 0.35);
+  border-left: 3px solid rgba(248, 211, 141, 0.6);
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.25rem;
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: #e2e8f0;
+}
+
